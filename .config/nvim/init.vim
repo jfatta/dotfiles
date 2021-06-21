@@ -319,5 +319,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 
-set clipboard=unnamedplus " use system clipboard
+set expandtab
+set invlist
 
+set clipboard=unnamedplus " use system clipboard
