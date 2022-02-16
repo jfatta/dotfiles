@@ -20,15 +20,27 @@ Plug 'ryanoasis/vim-devicons'
 "Golang:
 Plug 'fatih/vim-go'
 
+"C#:
+Plug 'OmniSharp/omnisharp-vim'
+
 "Git:
 Plug 'tpope/vim-fugitive'
 
 "Swag:
 Plug 'drewtempelmeyer/palenight.vim'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+"center text:
+Plug 'junegunn/goyo.vim'
+
+"YAML
+Plug 'pedrohdz/vim-yaml-folds'
+Plug 'Yggdroot/indentLine'
+Plug 'dense-analysis/ale'
 
 call plug#end()
 
@@ -40,6 +52,8 @@ call plug#end()
 " THEME
 set background=dark
 colorscheme palenight
+"set background=light
+"colorscheme PaperColor
 let g:airline_theme = "palenight"
 
 if (has("nvim"))
@@ -323,3 +337,20 @@ set expandtab
 set invlist
 
 set clipboard=unnamedplus " use system clipboard
+
+set colorcolumn=80
+
+
+" YAML:
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+set foldlevelstart=20
+
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+let g:ale_sign_error = '‚úò'
+let g:ale_sign_warning = '‚ö†'
+let g:ale_lint_on_text_changed = 'never'
+
+let g:ale_fixers = {
+\   'yaml': ['yamlfix'],
+\}
