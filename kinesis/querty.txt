@@ -1,0 +1,16 @@
+[obrack]>[left]
+[cbrack]>[right]
+[scroll]>[shutdn]
+[right]>[cbrack]
+[left]>[obrack]
+[kp=]>[kp=mac]
+[end]>[rwin]
+[lctrl]>[lwin]
+[kp-lctrl]>[kp-lwin]
+[delete]>[lshift]
+[rctrl]>[rwin]
+[kp-rctrl]>[kp-rwin]
+[rwin]>[rctrl]
+[kp-rwin]>[kp-rctrl]
+{pdown}>{-lshift}{;}{+lshift}{w}{enter}
+{pup}>{-lshift}{;}{+lshift}{-lshift}{g}{+lshift}{o}{-lshift}{v}{+lshift}{e}{t}{enter}
