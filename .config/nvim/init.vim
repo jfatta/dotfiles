@@ -21,7 +21,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'fatih/vim-go'
 
 "C#:
-Plug 'OmniSharp/omnisharp-vim'
+"Plug 'OmniSharp/omnisharp-vim'
 
 "Git:
 Plug 'tpope/vim-fugitive'
@@ -37,10 +37,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "center text:
 Plug 'junegunn/goyo.vim'
 
+Plug 'unkiwii/vim-nerdtree-sync'
+
+
+
 "YAML
-Plug 'pedrohdz/vim-yaml-folds'
-Plug 'Yggdroot/indentLine'
-Plug 'dense-analysis/ale'
+"Plug 'pedrohdz/vim-yaml-folds'
+"Plug 'Yggdroot/indentLine'
+"Plug 'dense-analysis/ale'
 
 call plug#end()
 
@@ -342,15 +346,21 @@ set colorcolumn=80
 
 
 " YAML:
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+"autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
-set foldlevelstart=20
+"set foldlevelstart=20
 
-let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-let g:ale_sign_error = '‚úò'
-let g:ale_sign_warning = '‚ö†'
-let g:ale_lint_on_text_changed = 'never'
+"let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+"let g:ale_sign_error = '✘'
+"let g:ale_sign_warning = '⚠'
+"let g:ale_lint_on_text_changed = 'never'
 
-let g:ale_fixers = {
-\   'yaml': ['yamlfix'],
-\}
+"let g:ale_fixers = {
+"\   'yaml': ['yamlfix'],
+"\}
+"
+"
+set noswapfile
+
+" zz to center line in scroll on/off
+:nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
