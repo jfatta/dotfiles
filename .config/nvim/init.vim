@@ -23,28 +23,16 @@ Plug 'fatih/vim-go'
 "C#:
 "Plug 'OmniSharp/omnisharp-vim'
 
-"Git:
-Plug 'tpope/vim-fugitive'
-
 "Swag:
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-"center text:
-Plug 'junegunn/goyo.vim'
-
 Plug 'unkiwii/vim-nerdtree-sync'
 
+Plug 'gruvbox-community/gruvbox'
 
-
-"YAML
-"Plug 'pedrohdz/vim-yaml-folds'
-"Plug 'Yggdroot/indentLine'
-"Plug 'dense-analysis/ale'
 
 call plug#end()
 
@@ -54,11 +42,7 @@ call plug#end()
 :set viminfo='100,<1000,s10,h
 
 " THEME
-set background=dark
-colorscheme palenight
-"set background=light
-"colorscheme PaperColor
-let g:airline_theme = "palenight"
+let g:airline_theme = "gruvbox"
 
 if (has("nvim"))
   "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
@@ -71,7 +55,6 @@ endif
 if (has("termguicolors"))
   set termguicolors
 endif
-let g:palenight_terminal_italics=1
 
 
 "AUTOCOMPLETE
@@ -135,10 +118,6 @@ autocmd! bufwritepost init.vim source %
 "------
 "Allow using mouse helpful for switching/resizing windows
 set mouse+=a
-if &term =~ '^screen'
-  " tmux knows the extended mouse mode
-  set ttymouse=xterm2
-endif
 
 "TEXT SEARCH:
 "------------
@@ -148,15 +127,6 @@ set ignorecase
 "SWAP:
 "-----
 set dir=~/.local/share/nvim/swap/
-
-"GIT (FUGITIVE):
-"---------------
-map fgb :Gblame<CR>
-map fgs :Gstatus<CR>
-map fgl :Glog<CR>
-map fgd :Gdiff<CR>
-map fgc :Gcommit<CR>
-map fga :Git add %:p<CR>
 
 "SYNTAX HIGHLIGHTING:
 "--------------------
@@ -345,22 +315,9 @@ set clipboard=unnamedplus " use system clipboard
 set colorcolumn=80
 
 
-" YAML:
-"autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-
-"set foldlevelstart=20
-
-"let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-"let g:ale_sign_error = '✘'
-"let g:ale_sign_warning = '⚠'
-"let g:ale_lint_on_text_changed = 'never'
-
-"let g:ale_fixers = {
-"\   'yaml': ['yamlfix'],
-"\}
-"
-"
 set noswapfile
 
 " zz to center line in scroll on/off
 :nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
+
+colorscheme gruvbox
