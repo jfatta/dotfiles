@@ -2,22 +2,58 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<integer>54</integer>
+			<key>parameter</key>
+			<string></string>
+			<key>title</key>
+			<string>new pane vertical</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AllowTabbarInTitlebarAccessoryBigSur</key>
 	<true/>
 	<key>BadgeFontIsBold</key>
 	<true/>
+	<key>BootstrapDaemon</key>
+	<false/>
+	<key>Command</key>
+	<string></string>
 	<key>Control</key>
 	<integer>1</integer>
 	<key>ConvertDosNewlines</key>
 	<true/>
+	<key>Coprocess MRU</key>
+	<array>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/deploymanager/deployer_argo.go +132</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/.env +</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/.envrc.dev +</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_ca_certificate_test.go +25</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_secret_test.go +119</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_secret_test.go +24</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_postgres_conn_params_test.go +101</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_postgres_conn_params_test.go +22</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_iron_token_test.go +94</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_iron_token_test.go +22</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_encryption_keyset_test.go +145</string>
+		<string>echo vim /Users/jorge/go/src/github.com/auth0/layer0/internal/provider/resource_encryption_keyset_test.go +26</string>
+	</array>
 	<key>Default Bookmark Guid</key>
 	<string>B3E048C4-EE7E-4291-BEC5-666EC3E3EBCA</string>
 	<key>DimBackgroundWindows</key>
-	<false/>
+	<true/>
 	<key>DimInactiveSplitPanes</key>
 	<true/>
 	<key>DimOnlyText</key>
-	<false/>
+	<true/>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>EnableProxyIcon</key>
 	<false/>
 	<key>EscapeShellCharsWithBackslash</key>
@@ -26,6 +62,131 @@
 	<false/>
 	<key>FocusOnRightOrMiddleClick</key>
 	<false/>
+	<key>ForceAntialiasingOnRetina</key>
+	<false/>
+	<key>GlobalKeyMap</key>
+	<dict>
+		<key>0x19-0x60000</key>
+		<dict>
+			<key>Action</key>
+			<integer>39</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0x2d-0x100000-0x1b</key>
+		<dict>
+			<key>Action</key>
+			<integer>28</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string>B3E048C4-EE7E-4291-BEC5-666EC3E3EBCA</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x5c-0x100000-0x2a</key>
+		<dict>
+			<key>Action</key>
+			<integer>29</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string>B3E048C4-EE7E-4291-BEC5-666EC3E3EBCA</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x9-0x40000</key>
+		<dict>
+			<key>Action</key>
+			<integer>32</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf700-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>7</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf701-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>6</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf702-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>2</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf702-0x320000</key>
+		<dict>
+			<key>Action</key>
+			<integer>33</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf703-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>0</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf703-0x320000</key>
+		<dict>
+			<key>Action</key>
+			<integer>34</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf729-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>5</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72b-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>4</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72c-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>9</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72c-0x20000</key>
+		<dict>
+			<key>Action</key>
+			<integer>9</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72d-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>8</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72d-0x20000</key>
+		<dict>
+			<key>Action</key>
+			<integer>8</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+	</dict>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HdrCursor</key>
@@ -38,8 +199,12 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
-	<key>LowFiCombiningMarks</key>
+	<key>KillSessionsOnLogout</key>
 	<true/>
+	<key>LowFiCombiningMarks</key>
+	<false/>
+	<key>Multiserver</key>
+	<false/>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -209,15 +374,19 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
 				<real>0.0</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
 				<real>0.0</real>
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
-			<key>Background Image Location</key>
-			<string></string>
+			<key>Background Image Mode</key>
+			<integer>2</integer>
 			<key>Badge Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -259,7 +428,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string></string>
+			<string>/usr/local/bin/fish</string>
 			<key>Cursor Boost</key>
 			<real>0.081126941835260119</real>
 			<key>Cursor Color</key>
@@ -296,7 +465,7 @@
 			<key>Cursor Type</key>
 			<integer>2</integer>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Custom Shell</string>
 			<key>Custom Directory</key>
 			<string>Advanced</string>
 			<key>Default Bookmark</key>
@@ -306,17 +475,21 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Draw Powerline Glyphs</key>
-			<true/>
+			<false/>
 			<key>Flashing Bell</key>
 			<true/>
 			<key>Foreground Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.73692302421196221</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.73692302421196221</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.73692302421196221</real>
 			</dict>
 			<key>Guid</key>
 			<string>B3E048C4-EE7E-4291-BEC5-666EC3E3EBCA</string>
@@ -678,7 +851,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>HackNerdFontCompleteM-Regular 17</string>
+			<string>HackNerdFontComplete-Regular 18</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -711,6 +884,15 @@
 				<key>Red Component</key>
 				<real>0.70980000495910645</real>
 			</dict>
+			<key>Semantic History</key>
+			<dict>
+				<key>action</key>
+				<string>coprocess</string>
+				<key>editor</key>
+				<string>com.github.atom</string>
+				<key>text</key>
+				<string>echo vim \1 +\2</string>
+			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Shortcut</key>
@@ -726,7 +908,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
-			<integer>3</integer>
+			<integer>0</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unicode Version</key>
@@ -757,9 +939,13 @@
 			<string>/Users/jorgefatta</string>
 		</dict>
 	</array>
+	<key>OnlyWhenMoreTabs</key>
+	<true/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
+	<false/>
+	<key>OpenNewWindowAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
@@ -775,6 +961,8 @@
 	<false/>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>4</integer>
+	<key>PerPaneBackgroundImage</key>
+	<true/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -812,6 +1000,16 @@
 	<false/>
 	<key>Print In Black And White</key>
 	<true/>
+	<key>PromptOnQuit</key>
+	<true/>
+	<key>PromptOnQuitEvenIfThereAreNoWindows</key>
+	<false/>
+	<key>RestoreWindowContents</key>
+	<false/>
+	<key>RunJobsInServers</key>
+	<false/>
+	<key>SaveScrollBufferWhenClearing</key>
+	<false/>
 	<key>SeparateStatusBarsPerPane</key>
 	<true/>
 	<key>ShowPaneTitles</key>
@@ -819,11 +1017,11 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.074219249592784739</real>
+	<real>0.092708842802356986</real>
 	<key>StatusBarPosition</key>
 	<integer>0</integer>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>6</integer>
+	<integer>1</integer>
 	<key>TabTransform</key>
 	<integer>0</integer>
 	<key>TabViewType</key>
@@ -831,7 +1029,7 @@
 	<key>TabsHaveCloseButton</key>
 	<true/>
 	<key>TerminalMargin</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>TerminalVMargin</key>
 	<integer>1</integer>
 	<key>TmuxVariableWindowSizesSupported</key>
@@ -841,9 +1039,15 @@
 		<string>Profiles</string>
 		<string>Command History</string>
 	</array>
+	<key>URLHandlersByGuid</key>
+	<dict/>
 	<key>UseBorder</key>
 	<false/>
+	<key>UseRestorableStateController</key>
+	<false/>
 	<key>VisualIndicatorForEsc</key>
+	<false/>
+	<key>disableMetalWhenUnplugged</key>
 	<false/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
