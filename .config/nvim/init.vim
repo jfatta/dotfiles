@@ -20,8 +20,8 @@ Plug 'ryanoasis/vim-devicons'
 "Golang:
 Plug 'fatih/vim-go'
 
-"C#:
-"Plug 'OmniSharp/omnisharp-vim'
+"extra linting 
+Plug 'dense-analysis/ale'
 
 "Swag:
 Plug 'vim-airline/vim-airline'
