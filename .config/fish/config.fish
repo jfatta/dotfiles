@@ -32,10 +32,13 @@ function light
   theme_gruvbox light hard
 end
 
-source private.fish
+source ~/.config/fish/private.fish
 
-change_background
+# change_background
 
 direnv hook fish | source
 
 starship init fish | source
+
+  theme_gruvbox dark hard
+
