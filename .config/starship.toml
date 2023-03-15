@@ -3,6 +3,10 @@ command = "layer0 profiles list 2>&1 | grep '▸' | awk '{print $2}'"  # shows o
 symbol = "lØ:"
 format = "[$symbol($output) ]($style)"
 style = "fg:#991970 italic"
-disabled = false
+disabled = true
 shell = "sh"
 when = "true"
+
+[kubernetes]
+format = '[☸ $context \($namespace\)](dimmed green) '
+disabled = false
